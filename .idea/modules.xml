@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AlgorithmsCourseBigO.iml" filepath="$PROJECT_DIR$/AlgorithmsCourseBigO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlgorithmsCourseCodeFiles.iml" filepath="$PROJECT_DIR$/AlgorithmsCourseCodeFiles.iml" />
     </modules>
   </component>
 </project>
