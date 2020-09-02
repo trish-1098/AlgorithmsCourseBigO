@@ -1,7 +1,6 @@
 package arrays;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class ArraysClass {
     public static void main(String[] args) {
