@@ -9,7 +9,7 @@ public class GoogleInterviewChallengeQ1 {
         System.out.println(containsCommonItems2(array1, array2));
     }
 
-    public static boolean doesContainCommonItems(String[] array1, String[] array2) {
+    public static boolean doesContainCommonItems(String[] array1, String[] array2) { // O(a * b)
         ArrayList<String> alreadySearchedItemsForArrayOne = new ArrayList<>();
         List<String> itemsForArrayTwo = Arrays.asList(array2);
         for (String arrayOneElement : array1) {
@@ -22,7 +22,7 @@ public class GoogleInterviewChallengeQ1 {
         }
         return false;
     }
-    public static boolean containsCommonItems2 (String[] arr1, String[] arr2){
+    public static boolean containsCommonItems2 (String[] arr1, String[] arr2){ // O(a + b)
         Hashtable<String, Boolean> arrayOneObject = new Hashtable<>();
         for (String arrayOneElement : arr1) {
             if (!(arrayOneObject.containsKey(arrayOneElement))) {

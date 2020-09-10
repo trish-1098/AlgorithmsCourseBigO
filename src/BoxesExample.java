@@ -7,7 +7,7 @@ public class BoxesExample {
     public static void logAllPairs(int[] array) {
         for (int n1: array) {
             for (int n2: array) {
-                System.out.println(n1 + ", " + n2);
+                System.out.println(n1 + ", " + n2); // O(n^2)
             }
         }
     }

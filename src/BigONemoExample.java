@@ -9,7 +9,7 @@ public class BigONemoExample {
         Arrays.fill(largeArray, "nemo");
         findNemo(everyone);
     }
-    public static void findNemo(String[] array) {
+    public static void findNemo(String[] array) { // O(n)
         for (String s : array) {
             System.out.println("running");
             if (s.equals("nemo")) {
